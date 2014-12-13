@@ -1,0 +1,234 @@
+			.container {
+			  width: 960px;
+			}
+
+			body { 
+				background-image:url();
+				background-repeat: no-repeat;
+			    background-position: center;
+			    background-size: cover;
+			    width: 100%;
+			    height: 100%; 
+			}
+
+			}
+			.header {
+			  background-color: rgba(255, 255, 255, 0.95);
+			  border-bottom: 1px solid #ddd;
+			  
+			  font-family: 'Oswald';
+			  font-weight: 300;
+			  
+			  font-size: 15px;
+			  padding: 0px;
+			}
+
+
+			/* Menu */ 
+
+			.header .menu {
+			  float: right;
+			  list-style: none;
+			  margin-top: 16px;
+			}
+
+			.menu > li {
+			  display: inline;
+			  padding-left: 20px;
+			  padding-right: 20px;
+
+			}
+
+			.menu a {
+			  color: #898989;
+			}
+
+			/* Dropdown */
+
+			.dropdown-menu {
+			  font-size: 16px;
+			  margin-top: 5px;
+			  min-width: 105px;
+			}
+
+			.dropdown-menu li a {
+			  color: #898989;
+			  padding: 6px 20px;
+			  font-weight: 300;
+			}
+
+			.slogan { 
+				font-family: 'Oswald';
+  				margin-left: 30px;
+  				position: absolute;
+			}
+			.title {
+				color: #636363;
+  				font-weight: 500;
+  				font-size: 28px;
+  				margin-top: 10px;
+  				margin-bottom: 0px;
+			}
+			.subtitle {
+				color: #dd1c77;
+				font-family: 'Georgia';
+  				font-weight: 300;
+  				font-size: 1em;
+  				margin-top: 18px;
+  				margin-bottom: 3px;
+  				background-color: white;
+  				opacity: .8;
+			}
+
+			.description {
+				width: 26em;
+				color: black;
+				font-family: 'Georgia';
+  				font-weight: 200;
+  				font-size: .9em;
+  				background color: transparent;
+  				line-height: 1.2em;
+			}
+
+			.footnote {
+				color: white;
+				font-family: sans-serif;
+  				font-weight: 300;
+  				background color: transparent;
+  				font-size: .8em;
+  				position: absolute;
+  				margin-top: 900px;
+  				margin-left: 25px;
+
+			}
+
+			path:hover {
+			  fill: red;
+			}
+			svg {
+				margin-top: 1em;
+			}
+
+			.d3-tip {
+			  line-height: 1.4;
+			  font-weight: ;
+			  font-size: .8em;
+			  font-family: sans-serif;
+			  padding: 12px;
+			  background: rgba(0, 0, 0, 0.7);
+			  color: #fff;
+			  border-radius: 2px;
+
+			}
+
+			/* Creates a small triangle extender for the tooltip */
+			.d3-tip:after {
+			  box-sizing: border-box;
+			  display: inline;
+			  font-size: 10px;
+			  width: 100%;
+			  line-height: 1;
+			  color: rgba(0, 0, 0, 0.8);
+			  content: "\25BC";
+			  position: absolute;
+			  text-align: center;
+			}
+
+			/* Style northward tooltips differently */
+			.d3-tip.n:after {
+			  margin: -1px 0 0 0;
+			  top: 100%;
+			  left: 0;
+			}
+
+
+
+
+			#main, #main_bot {
+				width: 150px;
+				height: auto;
+				margin-top: 220px;
+				margin-left: 70px;
+				position: absolute;
+			}
+			#slider, #slider_bottom{
+				width: 220px;
+				position: absolute;
+				height: 10px;
+				background: url(http://s12.postimg.org/86n3b78p9/range_before.png) repeat top left;
+			}
+			#slider_bottom{
+				margin-top: 100px;
+			}
+			.tooltip, .tooltip_bottom {
+				background: url(http://s1.postimg.org/vsg0yj2mj/tooltip.png) no-repeat;
+				position: absolute;
+				display: block;
+				top: -30px;
+				width: 31px;
+				height: 29px;
+				color: black;
+				text-align: center;
+				color: #464646;
+				font: 16px Arial, sans-serif;
+			}
+			.ui-slider-handle {
+				position: absolute;
+				z-index: 2;
+				width: 29px;
+				height: 31px;
+				cursor: pointer;
+				background: url('http://s24.postimg.org/lltizgrj5/handler.png') no-repeat 50% 50%;
+				outline: none;
+				top: -7px;
+				margin-left: -12px;
+			}
+			.ui-slider-range {
+				background: url(http://s12.postimg.org/qq1dousb1/range_filled.png) no-repeat;
+				position: absolute;
+				border: 0;
+				top: 0;
+				height: 100%;
+				border-radius: 25px;
+			}
+			#textarea_one, #textarea_three {
+				margin-top: -5px;
+				margin-left: -25px;
+			}
+			#textarea_two, #textarea_four {
+				margin-left: 235px;
+				margin-top: -20px;
+			}
+			#textarea_one, #textarea_two, #textarea_three, #textarea_four {
+				font-weight: 700;
+				font-family: Arial;
+				font-size: 16px;
+				color: #959595;
+			}
+		
+			.topic {
+				font-size: .6em;
+				padding-top: 6px;
+				padding-left: 2px;
+				font-weight: bold;
+				line-height: .6em;
+
+			}
+			.slider {  
+			   	position: absolute;
+			    width: 200px;
+			    margin-left: 20px; 
+			    margin-top: 170px;
+			    list-style-type: none;    
+			}
+
+				
+			.slider_heading {  
+				width: 130px;
+			    margin-bottom: .7em;
+			    list-style-type: none;
+			    line-height: 1em;    
+			    color: #dd1c77;
+			    font-size: 1em;
+			    font-family: "Georgia";
+			}
