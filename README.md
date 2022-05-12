@@ -1,2 +1,2 @@
 # chatter-city
-Final project for CS209 (Data Science)
+CS209 (Data Science) Final Project: A Visualization of Tweet-based sentiments analysis across NYC Neighborhoods
